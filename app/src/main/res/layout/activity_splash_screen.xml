@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/gradient_background"
+    android:layout_gravity="center"
+    android:id="@+id/lin_lay"
+    android:gravity="center"
+    android:orientation="vertical"
+    tools:context="com.example.asadfiaz.recepieapp.SplashScreen"
+              android:weightSum="1">
+
+
+    <TextView
+        android:id="@+id/txtRecepie"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Recipe Master"
+        android:textSize="40sp"
+        android:textStyle="bold"
+        />
+
+
+    <ImageView
+        android:id="@+id/recepieIcon"
+        android:layout_width="match_parent"
+        android:layout_height="287dp"
+        android:src="@drawable/fastfood"
+        />
+
+
+</LinearLayout>
